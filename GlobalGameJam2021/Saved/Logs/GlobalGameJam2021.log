@@ -1514,3 +1514,157 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.29-22.04.49:413][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2021.01.29-22.04.49:425][417]LogUObjectHash: Compacting FUObjectHashTables data took   6.36ms
 [2021.01.29-22.04.49:478][418]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.01.29-22.06.49:067][174]MapCheck: New page: Map Check
+[2021.01.29-22.06.49:150][174]Cmd: MAP REBUILD ALLVISIBLE
+[2021.01.29-22.06.49:150][174]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.01.29-22.06.49:556][174]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap_2021-01-29-20-34-56, bSessionEnded=true, bCleanupResources=false
+[2021.01.29-22.06.49:837][174]LogUObjectHash: Compacting FUObjectHashTables data took   7.40ms
+[2021.01.29-22.06.49:874][174]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.29-22.06.49:942][174]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.01.29-22.06.49:942][174]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.01.29-22.06.49:942][174]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.29-22.06.49:980][174]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2021.01.29-22.06.49:980][174]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.01.29-22.06.49:980][174]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.29-22.06.50:009][174]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.29-22.06.50:039][174]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.29-22.06.50:073][174]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.29-22.06.50:100][174]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.29-22.06.50:129][174]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.29-22.06.50:165][174]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.29-22.06.50:202][174]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.29-22.06.52:054][174]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
+[2021.01.29-22.06.52:054][174]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 15
+[2021.01.29-22.06.52:054][174]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 14
+[2021.01.29-22.06.52:054][174]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2021.01.29-22.06.52:054][174]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2021.01.29-22.06.52:054][174]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.01.29-22.06.52:054][174]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.01.29-22.06.52:054][174]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2021.01.29-22.06.52:054][174]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.01.29-22.06.52:054][174]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2021.01.29-22.06.52:055][174]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2021.01.29-22.06.52:055][174]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2021.01.29-22.06.52:055][174]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.01.29-22.06.52:055][174]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2021.01.29-22.06.52:055][174]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2021.01.29-22.06.52:055][174]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.01.29-22.06.52:055][174]TextureStreamingBuild: Display: Compiling optional shaders took 2.215 seconds.
+[2021.01.29-22.06.52:143][174]LogLevel: Display: Export Material TexCoord Scales took 0.088 seconds.
+[2021.01.29-22.06.52:163][174]TextureStreamingBuild: Display: Build Texture Streaming took 0.008 seconds.
+[2021.01.29-22.06.52:323][174]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2021.01.29-22.06.52:344][174]LightingResults: New page: Lighting Build - 29 Jan 2021, 22:06:52
+[2021.01.29-22.06.52:810][174]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.01.29-22.06.53:153][174]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.01.29-22.06.53:265][174]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.01.29-22.06.55:702][174]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.01.29-22.06.55:702][174]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10280
+[2021.01.29-22.07.05:477][174]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.01.29-22.07.05:477][174]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.01.29-22.07.05:477][174]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.01.29-22.07.05:477][174]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.01.29-22.07.05:477][174]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.01.29-22.07.06:091][174]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.01.29-22.07.06:091][174]MapCheck: New page: FirstPersonExampleMap_2021-01-29-20-34-56 - 29 Jan 2021, 22:07:06
+[2021.01.29-22.07.06:091][174]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2021.01.29-22.07.06:161][174]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 70.434ms to complete.
+[2021.01.29-22.07.06:164][174]LogEditorBuildUtils: Build time 0:17
+[2021.01.29-22.07.06:265][174]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2021.01.29-22.07.06:311][174]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.01.29-22.07.06:311][174]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.01.29-22.07.06:311][174]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2021.01.29-22.07.06:489][174]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2021.01.29-22.07.06:489][174]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.01.29-22.07.06:561][175]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Tiles, compiling. 
+[2021.01.29-22.07.06:591][175]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Tiles, compiling. 
+[2021.01.29-22.07.06:728][176]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2021.01.29-22.07.06:759][176]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2021.01.29-22.07.06:843][177]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Steel, compiling. 
+[2021.01.29-22.07.06:873][177]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2021.01.29-22.07.06:873][177]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Steel, compiling. 
+[2021.01.29-22.07.06:918][178]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2021.01.29-22.07.06:944][178]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2021.01.29-22.07.06:968][179]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.01.29-22.07.06:989][179]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2021.01.29-22.07.06:989][179]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2021.01.29-22.07.07:015][179]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2021.01.29-22.07.07:047][180]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 11
+[2021.01.29-22.07.07:069][180]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2021.01.29-22.07.07:101][180]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2021.01.29-22.07.07:159][181]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2021.01.29-22.07.07:188][181]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2021.01.29-22.07.10:891][183]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
+[2021.01.29-22.07.10:891][183]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.01.29-22.07.10:891][183]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.01.29-22.07.10:891][183]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2021.01.29-22.07.10:891][183]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2021.01.29-22.07.10:891][183]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.01.29-22.07.10:891][183]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.01.29-22.07.11:675][197]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.01.29-22.08.13:857][733]Job is a success!
+[2021.01.29-22.08.14:167][734]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.034s
+[2021.01.29-22.08.14:167][734]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.01.29-22.08.14:167][734]LogVolumetricLightmapImport:      BrickData (all levels) 0.3Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2021.01.29-22.08.14:167][734]LogVolumetricLightmapImport:      Bricks at depth
+[2021.01.29-22.08.14:167][734]LogVolumetricLightmapImport:          0: 1.5% covering 100.0% of volume
+[2021.01.29-22.08.14:167][734]LogVolumetricLightmapImport:          1: 6.0% covering 6.3% of volume
+[2021.01.29-22.08.14:168][734]LogVolumetricLightmapImport:          2: 92.5% covering 1.5% of volume
+[2021.01.29-22.08.14:168][734]LogVolumetricLightmapImport:      Bricks in each level
+[2021.01.29-22.08.14:168][734]LogVolumetricLightmapImport:          FirstPersonExampleMap_2021-01-29-20-34-56 			 67 bricks 	 100.0% (Persistent Level)
+[2021.01.29-22.08.20:274][734]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
+[2021.01.29-22.08.20:274][734]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
+[2021.01.29-22.08.20:274][734]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
+[2021.01.29-22.08.20:274][734]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 2048X1024)
+[2021.01.29-22.08.20:274][734]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 2048X2048)
+[2021.01.29-22.08.20:274][734]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 2048X2048)
+[2021.01.29-22.08.20:274][734]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 2048X1024)
+[2021.01.29-22.08.20:274][734]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 2048X2048)
+[2021.01.29-22.08.20:274][734]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 2048X2048)
+[2021.01.29-22.08.20:274][734]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 512X256)
+[2021.01.29-22.08.20:274][734]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 512X512)
+[2021.01.29-22.08.20:274][734]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 512X512)
+[2021.01.29-22.08.20:274][734]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 64X32)
+[2021.01.29-22.08.20:275][734]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
+[2021.01.29-22.08.20:275][734]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
+[2021.01.29-22.08.21:116][734]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2021.01.29-22.08.21:116][734]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 32X32)
+[2021.01.29-22.08.21:116][734]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X1024)
+[2021.01.29-22.08.21:116][734]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X1024)
+[2021.01.29-22.08.21:116][734]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X1024)
+[2021.01.29-22.08.21:116][734]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 1024X1024)
+[2021.01.29-22.08.21:116][734]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X1024)
+[2021.01.29-22.08.29:213][734]Lightmass on KUSUNAGI: 1:07 min total, 280 ms importing, 111 ms setup, 9.40 sec photons, 57.3 sec processing, 0 ms extra exporting [275/275 mappings]. Threads: 6:41 min total, 3:48 min processing.
+[2021.01.29-22.08.29:241][734]LogStaticLightingSystem: FirstPersonExampleMap_2021-01-29-20-34-56_BuiltData storing lightmap data for 275 meshes in 9 LightmapResourceClusters (30.6 Meshes per cluster).
+[2021.01.29-22.08.29:303][734]LogMaterial: Display: Material /Game/Models/CreateLid/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
+[2021.01.29-22.08.29:319][734]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2021.01.29-22.08.29:408][734]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2021.01.29-22.08.29:408][734]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2021.01.29-22.08.29:408][734]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.01.29-22.08.29:408][734]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.01.29-22.08.29:408][734]LogMaterial: Display: Material /Game/Models/CrateBody/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
+[2021.01.29-22.08.29:422][734]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2021.01.29-22.08.29:610][734]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2021.01.29-22.08.29:659][734]LogStaticLightingSystem: Illumination: 1:37 min (5.45 sec encoding lightmaps, 831 ms encoding shadowmaps)
+[2021.01.29-22.08.29:659][734]LogStaticLightingSystem: Lightmap texture memory:  32.7 MB (32.7 MB streaming, 0.0 MB non-streaming), 10 textures
+[2021.01.29-22.08.29:659][734]LogStaticLightingSystem: Shadowmap texture memory: 8.0 MB (8.0 MB streaming, 0.0 MB non-streaming), 7 textures
+[2021.01.29-22.08.30:508][734]DumpUnbuiltLightIteractions
+[2021.01.29-22.08.30:508][734]Lights with unbuilt interactions: 0
+[2021.01.29-22.08.30:508][734]
+[2021.01.29-22.08.30:508][734]Primitives with unbuilt interactions: 0
+[2021.01.29-22.08.36:381][734]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 24
+[2021.01.29-22.08.36:382][734]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 17
+[2021.01.29-22.08.36:382][734]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2021.01.29-22.08.36:382][734]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.01.29-22.08.36:382][734]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.01.29-22.08.36:382][734]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2021.01.29-22.08.36:382][734]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.01.29-22.08.36:382][734]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.01.29-22.08.36:642][735]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.01.29-22.08.36:642][735]MapCheck: New page: FirstPersonExampleMap_2021-01-29-20-34-56 - 29 Jan 2021, 22:08:36
+[2021.01.29-22.08.36:646][735]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 3.122ms to complete.
+[2021.01.29-22.09.17:828][802]LogUObjectHash: Compacting FUObjectHashTables data took   7.48ms
+[2021.01.29-22.09.18:555][802]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/GlobalGameJam2021/GlobalGameJam2021/Saved/FirstPersonExampleMap_2021-01-291BF418A44244111C8F0DB0AD6989EFB6.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/GlobalGameJam2021/GlobalGameJam2021/Content/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.umap'
+[2021.01.29-22.09.19:992][802]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/GlobalGameJam2021/GlobalGameJam2021/Saved/FirstPersonExampleMap_2021-01-298432185A4424F615F3FEB5B5F0075649.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/GlobalGameJam2021/GlobalGameJam2021/Content/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56_BuiltData.uasset'
+[2021.01.29-22.09.20:048][802]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.29-22.09.20:049][802]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56
+[2021.01.29-22.09.20:049][802]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56_BuiltData.FirstPersonExampleMap_2021-01-29-20-34-56_BuiltData
