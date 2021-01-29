@@ -1,4 +1,4 @@
-﻿Log file open, 01/29/21 18:49:26
+﻿Log file open, 01/29/21 19:57:25
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: GlobalGameJam2021
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.147714
+LogStats: Stats thread started at 0.122540
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -125,7 +125,7 @@ LogInit: Build: ++UE4+Release-4.24-CL-11590370
 LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
 LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
 LogInit: Net CL: 10570792
-LogInit: OS: Windows 7 (Service Pack 1), CPU: AMD FX(tm)-8320 Eight-Core Processor           , GPU: NVIDIA GeForce GTX 750 Ti
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
 LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
 LogInit: Compiled with Visual C++: 19.16.27032.01
 LogInit: Build Configuration: Development
@@ -2939,3 +2939,590 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.29-19.36.07:877][529]LogD3D11RHI: CleanupD3DDevice
 [2021.01.29-19.36.08:261][529]LogExit: Exiting.
 [2021.01.29-19.36.08:283][529]Log file closed, 01/29/21 19:36:08
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Engine.ini]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Engine.ini]
+[2021.01.29-19.57.25:842][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Engine.ini]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Engine.ini]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.01.29-19.57.25:842][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Engine.ini]
+[2021.01.29-19.57.25:842][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Engine.ini]
+[2021.01.29-19.57.25:845][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-19.57.25:845][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.29-19.57.25:845][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.29-19.57.25:845][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-19.57.25:845][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.29-19.57.25:845][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-19.57.25:845][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.29-19.57.25:845][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.29-19.57.25:845][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.29-19.57.25:846][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.29-19.57.25:847][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.29-19.57.25:847][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.29-19.57.25:847][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.29-19.57.25:850][  0]LogHAL: Display: Platform has ~ 8 GB [8374824960 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.01.29-19.57.25:850][  0]LogInit: Going up to parent DeviceProfile []
+[2021.01.29-19.57.25:850][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-19.57.25:850][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.29-19.57.25:850][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.29-19.57.25:850][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-19.57.25:850][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.29-19.57.25:850][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-19.57.25:850][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.29-19.57.25:850][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.29-19.57.25:850][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.29-19.57.25:850][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.29-19.57.25:850][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.29-19.57.25:850][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.29-19.57.25:850][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.29-19.57.25:850][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.29-19.57.25:850][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.29-19.57.25:850][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.29-19.57.25:850][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.29-19.57.25:851][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.29-19.57.25:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.29-19.57.25:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.29-19.57.25:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.29-19.57.25:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.29-19.57.25:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.29-19.57.25:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.29-19.57.25:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.29-19.57.25:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.29-19.57.25:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.29-19.57.25:852][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-19.57.25:852][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.29-19.57.25:852][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.29-19.57.25:852][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Scalability.ini]
+[2021.01.29-19.57.25:852][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.29-19.57.25:852][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.29-19.57.25:852][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.29-19.57.25:852][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.01.29-19.57.25:852][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.01.29-19.57.25:852][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.01.29-19.57.25:852][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Config/Windows/Engine.ini]
+[2021.01.29-19.57.25:852][  0]LogInit: Computer: DESKTOP-UVB15BM
+[2021.01.29-19.57.25:852][  0]LogInit: User: Lenovo
+[2021.01.29-19.57.25:852][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.01.29-19.57.25:852][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.29-19.57.25:853][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2021.01.29-19.57.25:853][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.29-19.57.25:853][  0]LogMemory: Process Physical Memory: 105.67 MB used, 105.68 MB peak
+[2021.01.29-19.57.25:853][  0]LogMemory: Process Virtual Memory: 100.57 MB used, 100.57 MB peak
+[2021.01.29-19.57.25:853][  0]LogMemory: Physical Memory: 6883.11 MB used,  1103.75 MB free, 7986.86 MB total
+[2021.01.29-19.57.25:853][  0]LogMemory: Virtual Memory: 5139.38 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2021.01.29-19.57.25:856][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.01.29-19.57.25:881][  0]LogInit: Overriding language with editor language configuration option (en).
+[2021.01.29-19.57.25:881][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2021.01.29-19.57.26:091][  0]LogInit: Setting process to per monitor DPI aware
+[2021.01.29-19.57.26:128][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.01.29-19.57.26:128][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.01.29-19.57.26:354][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.29-19.57.26:354][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.01.29-19.57.26:354][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.01.29-19.57.26:354][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.29-19.57.26:455][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2021.01.29-19.57.26:455][  0]LogD3D11RHI:       4055/0/3993 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.01.29-19.57.26:467][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2021.01.29-19.57.26:467][  0]LogD3D11RHI:       128/0/3993 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.01.29-19.57.26:470][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.29-19.57.26:470][  0]LogD3D11RHI:       0/0/3993 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.29-19.57.26:470][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.29-19.57.26:534][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.29-19.57.26:534][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2021.01.29-19.57.26:534][  0]LogWindows: EnumDisplayDevices:
+[2021.01.29-19.57.26:535][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2021.01.29-19.57.26:535][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2021.01.29-19.57.26:536][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2021.01.29-19.57.26:536][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2021.01.29-19.57.26:536][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2021.01.29-19.57.26:536][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2021.01.29-19.57.26:536][  0]LogD3D11RHI:      Driver Date: Unknown
+[2021.01.29-19.57.26:536][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2021.01.29-19.57.26:605][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.01.29-19.57.26:605][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.29-19.57.26:619][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.01.29-19.57.27:017][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.01.29-19.57.27:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.01.29-19.57.27:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.01.29-19.57.27:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2021.01.29-19.57.27:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.01.29-19.57.27:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2021.01.29-19.57.27:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2021.01.29-19.57.27:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.01.29-19.57.27:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2021.01.29-19.57.27:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.01.29-19.57.27:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.01.29-19.57.27:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2021.01.29-19.57.27:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.01.29-19.57.27:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2021.01.29-19.57.27:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2021.01.29-19.57.27:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.01.29-19.57.27:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2021.01.29-19.57.27:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.01.29-19.57.27:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.01.29-19.57.27:094][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.01.29-19.57.27:094][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.01.29-19.57.27:104][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.01.29-19.57.27:115][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.01.29-19.57.27:125][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.01.29-19.57.27:135][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.01.29-19.57.27:145][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.01.29-19.57.27:153][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.01.29-19.57.27:182][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.01.29-19.57.27:182][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.01.29-19.57.27:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.01.29-19.57.27:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.01.29-19.57.27:210][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.01.29-19.57.27:219][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.01.29-19.57.27:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.01.29-19.57.27:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.01.29-19.57.27:236][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.01.29-19.57.27:240][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.01.29-19.57.27:270][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Intermediate/Shaders/WorkingDirectory/7048/).
+[2021.01.29-19.57.27:270][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Lenovo/AppData/Local/Temp/UnrealShaderWorkingDir/69164E1A4B10A3DF5267BBBC24056ED9/'.
+[2021.01.29-19.57.27:271][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.01.29-19.57.27:271][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.01.29-19.57.27:271][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.01.29-19.57.28:121][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.01.29-19.57.28:213][  0]LogDerivedDataCache: Loaded boot cache 0.09s 78MB C:/Users/Lenovo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2021.01.29-19.57.28:213][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Lenovo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2021.01.29-19.57.28:213][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.29-19.57.28:213][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.29-19.57.28:213][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.29-19.57.28:213][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.29-19.57.28:225][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.29-19.57.28:225][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.29-19.57.28:225][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.01.29-19.57.28:227][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Lenovo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.29-19.57.28:227][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.01.29-19.57.28:227][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.01.29-19.57.28:256][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2021.01.29-19.57.28:259][  0]LogSlate: Using FreeType 2.10.0
+[2021.01.29-19.57.28:259][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.29-19.57.28:332][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
+[2021.01.29-19.57.28:695][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.29-19.57.28:891][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.29-19.57.28:891][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.01.29-19.57.28:891][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.01.29-19.57.28:891][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.01.29-19.57.28:891][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.01.29-19.57.28:905][  0]LogNetVersion: GlobalGameJam2021 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1630513002)
+[2021.01.29-19.57.30:178][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.051069 seconds
+[2021.01.29-19.57.30:186][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2021.01.29-19.57.30:186][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2021.01.29-19.57.30:186][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.29-19.57.30:627][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.29-19.57.30:631][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.29-19.57.30:687][  0]SourceControl: Source control is disabled
+[2021.01.29-19.57.30:687][  0]SourceControl: Source control is disabled
+[2021.01.29-19.57.30:688][  0]SourceControl: Source control is disabled
+[2021.01.29-19.57.30:689][  0]SourceControl: Source control is disabled
+[2021.01.29-19.57.30:690][  0]SourceControl: Source control is disabled
+[2021.01.29-19.57.30:781][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.29-19.57.30:793][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.29-19.57.30:793][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.29-19.57.30:890][  0]LogOcInput: OculusInput pre-init called
+[2021.01.29-19.57.30:898][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.01.29-19.57.30:899][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.01.29-19.57.30:974][  0]LogEngine: Initializing Engine...
+[2021.01.29-19.57.30:975][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.29-19.57.30:976][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.01.29-19.57.31:375][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.01.29-19.57.31:384][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.29-19.57.31:413][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.29-19.57.31:413][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.29-19.57.31:413][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.29-19.57.31:413][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.29-19.57.31:413][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.29-19.57.31:413][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.29-19.57.31:413][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.29-19.57.31:413][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.29-19.57.31:414][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.29-19.57.31:414][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.29-19.57.31:447][  0]LogAudioMixer: Warning: Did not find the channel type flags for audio device 'Auriculares con micrófono (WH-CH700N Hands-Free AG Audio)'. Reverting to a default channel ordering.
+[2021.01.29-19.57.31:447][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.01.29-19.57.31:447][  0]LogAudioMixer: Display: Name: Auriculares con micrófono (WH-CH700N Hands-Free AG Audio)
+[2021.01.29-19.57.31:447][  0]LogAudioMixer: Display: Is Default: Yes
+[2021.01.29-19.57.31:447][  0]LogAudioMixer: Display: Sample Rate: 16000
+[2021.01.29-19.57.31:447][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2021.01.29-19.57.31:447][  0]LogAudioMixer: Display: Device Channel Count: 1
+[2021.01.29-19.57.31:447][  0]LogAudioMixer: Display: Channel Order:
+[2021.01.29-19.57.31:447][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.29-19.57.31:447][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.01.29-19.57.31:466][  0]LogAudioMixer: Display: Using Audio Device Auriculares con micrófono (WH-CH700N Hands-Free AG Audio)
+[2021.01.29-19.57.31:475][  0]LogInit: FAudioDevice initialized.
+[2021.01.29-19.57.31:475][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.01.29-19.57.31:592][  0]LogDerivedDataCache: Saved boot cache 0.12s 78MB C:/Users/Lenovo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2021.01.29-19.57.31:598][  0]LogInit: Texture streaming: Enabled
+[2021.01.29-19.57.31:609][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.29-19.57.31:609][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.01.29-19.57.31:611][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.01.29-19.57.31:666][  0]LogInit: Transaction tracking system initialized
+[2021.01.29-19.57.31:678][  0]BlueprintLog: New page: Editor Load
+[2021.01.29-19.57.31:712][  0]LocalizationService: Localization service is disabled
+[2021.01.29-19.57.32:019][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Content/' took 0.01s
+[2021.01.29-19.57.32:019][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.29-19.57.32:019][  0]LogCook: Display: Mobile HDR setting 1
+[2021.01.29-19.57.32:772][  0]SourceControl: Source control is disabled
+[2021.01.29-19.57.32:965][  0]LogSlate: Took 0.000316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.29-19.57.42:168][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2021.01.29-19.57.42:169][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.01.29-19.57.42:178][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.01.29-19.57.42:188][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.29-19.57.42:189][  0]LightingResults: New page: Lighting Build
+[2021.01.29-19.57.42:190][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.29-19.57.42:190][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-19.57.42:191][  0]MapCheck: New page: Map Check
+[2021.01.29-19.57.42:191][  0]LightingResults: New page: Lighting Build
+[2021.01.29-19.57.42:226][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2021.01.29-19.57.42:686][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.01.29-19.57.42:702][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.29-19.57.42:733][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2021.01.29-19.57.42:733][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.29-19.57.42:734][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.443ms to complete.
+[2021.01.29-19.57.42:734][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.546
+[2021.01.29-19.57.42:863][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-19.57.42:873][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-19.57.42:881][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-19.57.42:891][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-19.57.42:897][  0]LogCollectionManager: Loaded 0 collections in 0.002103 seconds
+[2021.01.29-19.57.42:912][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/Collections/' took 0.00s
+[2021.01.29-19.57.42:912][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Content/Developers/Lenovo/Collections/' took 0.00s
+[2021.01.29-19.57.42:912][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Content/Collections/' took 0.00s
+[2021.01.29-19.57.42:912][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 3015 classes and 717 folders.
+[2021.01.29-19.57.42:918][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.01.29-19.57.43:080][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.01.29-19.57.43:207][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2021.01.29-19.57.43:278][  0]LogSlate: Took 0.000555 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.29-19.57.43:284][  0]LogSlate: Took 0.001217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.29-19.57.43:350][  0]LogRenderer: Reallocating scene render targets to support 996x448 Format 10 NumSamples 1 (Frame:1).
+[2021.01.29-19.57.43:514][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.01.29-19.57.43:514][  0]LogLoad: (Engine Initialization) Total time: 19.32 seconds
+[2021.01.29-19.57.43:514][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.01.29-19.57.43:582][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.29-19.57.43:693][  0]LogRenderer: Reallocating scene render targets to support 996x460 Format 10 NumSamples 1 (Frame:3).
+[2021.01.29-19.57.43:693][  0]LogSlate: Took 0.013780 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.29-19.57.43:710][  1]LogAssetRegistry: Asset discovery search completed in 15.3786 seconds
+[2021.01.29-19.57.43:715][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
+[2021.01.29-19.58.02:676][ 86]LogRenderer: Reallocating scene render targets to support 1208x460 Format 10 NumSamples 1 (Frame:1076).
+[2021.01.29-19.58.26:666][430]LogRenderer: Reallocating scene render targets to support 1208x660 Format 10 NumSamples 1 (Frame:2108).
+[2021.01.29-19.58.58:096][169]LogTexture: Display: Building textures: blinn1_Metallic (AutoDXT, 2048X2048)
+[2021.01.29-19.58.58:096][169]LogTexture: Display: Building textures: blinn1_Roughness (AutoDXT, 2048X2048)
+[2021.01.29-19.58.58:096][169]LogTexture: Display: Building textures: blinn1_Base_Color (AutoDXT, 2048X2048)
+[2021.01.29-19.58.58:096][169]LogTexture: Display: Building textures: blinn1_Normal_DirectX (BC5, 2048X2048)
+[2021.01.29-19.58.58:096][169]LogStaticMesh: Building static mesh spider_chain_spider_necklace1...
+[2021.01.29-19.58.58:122][169]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.29-19.58.58:495][169]LogStaticMesh: Built static mesh [0.40s] /Game/Models/necklace/spider_chain_spider_necklace1.spider_chain_spider_necklace1
+[2021.01.29-19.58.58:554][169]LogMaterial: Display: Missing cached shader map for material blinn1, compiling. 
+[2021.01.29-19.58.58:625][169]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2021.01.29-19.58.58:625][169]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.01.29-19.58.58:625][169]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.01.29-19.58.58:625][169]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.01.29-19.58.58:642][169]LogActorFactory: Actor Factory created spider_chain_spider_necklace1
+[2021.01.29-19.58.59:735][216]LogActorFactory: Actor Factory created spider_chain_spider_necklace1
+[2021.01.29-19.59.07:650][634]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.01.29-19.59.20:299][383]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (spider_chain_spider_necklace1)
+[2021.01.29-19.59.21:158][431]Cmd: DELETE
+[2021.01.29-19.59.21:158][431]Cmd: ACTOR DELETE
+[2021.01.29-19.59.21:184][431]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-19.59.21:212][431]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.01.29-19.59.21:219][431]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2021.01.29-20.01.05:469][634]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube8)
+[2021.01.29-20.01.11:213][956]Cmd: DELETE
+[2021.01.29-20.01.11:213][956]Cmd: ACTOR DELETE
+[2021.01.29-20.01.11:216][956]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-20.01.11:216][956]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-20.01.11:217][956]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-20.01.11:217][956]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-20.01.11:217][956]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-20.01.11:217][956]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-20.01.11:218][956]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-20.01.11:245][956]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2021.01.29-20.01.11:246][956]LogEditorActor: Deleted 7 Actors (0.033 secs)
+[2021.01.29-20.01.20:298][482]Cmd: DELETE
+[2021.01.29-20.01.20:298][482]Cmd: ACTOR DELETE
+[2021.01.29-20.01.20:300][482]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-20.01.20:300][482]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-20.01.20:301][482]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-20.01.20:301][482]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-20.01.20:301][482]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-20.01.20:301][482]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-20.01.20:301][482]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-20.01.20:328][482]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.01.29-20.01.20:329][482]LogEditorActor: Deleted 7 Actors (0.031 secs)
+[2021.01.29-20.01.29:000][999]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall)
+[2021.01.29-20.02.01:194][660]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.01.29-20.02.07:237][ 15]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall2)
+[2021.01.29-20.02.10:347][197]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall)
+[2021.01.29-20.02.17:708][631]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.29-20.02.17:750][631]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2021.01.29-20.02.17:753][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.29-20.02.17:768][631]PIE: New page: PIE session: FirstPersonExampleMap (Jan 29, 2021, 8:02:17 PM)
+[2021.01.29-20.02.17:776][631]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.01.29-20.02.17:778][631]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.01.29-20.02.17:780][631]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.01.29-20.02.17:801][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020160s)
+[2021.01.29-20.02.17:804][631]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.01.29-20.02.17:805][631]LogPlayLevel: PIE: World Init took: (0.003558s)
+[2021.01.29-20.02.17:805][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024007s)
+[2021.01.29-20.02.17:839][631]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2021.01.29-20.02.17:843][631]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.29-20.02.17:843][631]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.29-20.02.17:843][631]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.29-20.02.17:843][631]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.29-20.02.17:843][631]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.29-20.02.17:843][631]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.29-20.02.17:843][631]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.29-20.02.17:843][631]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.29-20.02.17:843][631]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.29-20.02.17:843][631]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.29-20.02.17:861][631]LogAudioMixer: Warning: Did not find the channel type flags for audio device 'Auriculares con micrófono (WH-CH700N Hands-Free AG Audio)'. Reverting to a default channel ordering.
+[2021.01.29-20.02.17:861][631]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.01.29-20.02.17:861][631]LogAudioMixer: Display: Name: Auriculares con micrófono (WH-CH700N Hands-Free AG Audio)
+[2021.01.29-20.02.17:861][631]LogAudioMixer: Display: Is Default: Yes
+[2021.01.29-20.02.17:861][631]LogAudioMixer: Display: Sample Rate: 16000
+[2021.01.29-20.02.17:861][631]LogAudioMixer: Display: Channel Count Used: 2
+[2021.01.29-20.02.17:861][631]LogAudioMixer: Display: Device Channel Count: 1
+[2021.01.29-20.02.17:861][631]LogAudioMixer: Display: Channel Order:
+[2021.01.29-20.02.17:862][631]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.29-20.02.17:862][631]LogAudioMixer: Display: 1: FrontRight
+[2021.01.29-20.02.17:871][631]LogAudioMixer: Display: Using Audio Device Auriculares con micrófono (WH-CH700N Hands-Free AG Audio)
+[2021.01.29-20.02.17:874][631]LogInit: FAudioDevice initialized.
+[2021.01.29-20.02.17:890][631]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.29-20.02.17:903][631]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2021.01.29-20.02.17
+[2021.01.29-20.02.17:907][631]LogWorld: Bringing up level for play took: 0.006426
+[2021.01.29-20.02.17:907][631]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.01.29-20.02.17:930][631]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.01.29-20.02.17:935][631]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.096
+[2021.01.29-20.02.17:935][631]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2021.01.29-20.02.26:345][109]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.29-20.02.26:345][109]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.29-20.02.26:347][109]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2021.01.29-20.02.26:360][109]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-20.02.26:360][109]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.01.29-20.02.26:361][109]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.29-20.02.26:361][109]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.29-20.02.26:362][109]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-20.02.26:376][109]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.29-20.02.26:377][109]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2021.01.29-20.02.26:382][109]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-20.02.26:409][109]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.29-20.02.26:412][109]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-20.02.26:427][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2021.01.29-20.02.26:457][110]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.01.29-20.02.29:453][278]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2021.01.29-20.02.34:836][524]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.01.29-20.02.35:120][524]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 121 classes and 0 folders.
+[2021.01.29-20.02.36:259][524]LogSlate: Took 0.000979 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.29-20.02.36:482][525]LogSlate: Took 0.010260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.29-20.04.01:866][211]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.01.29-20.04.02:263][211]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2021.01.29-20.04.25:168][286]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.01.29-20.04.25:479][286]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2021.01.29-20.04.25:914][289]LogSavePackage: Moving '../../../../../../Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/FirstPersonCharacter38310D0D474862EC1D73E9895CF04B9D.tmp' to '../../../../../../Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.01.29-20.04.25:940][289]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2021.01.29-20.04.25:940][289]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.01.29-20.04.27:940][377]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2021.01.29-20.04.27:964][377]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2021.01.29-20.04.27:994][377]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.01.29-20.04.27:994][377]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-20.04.29:847][469]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall)
+[2021.01.29-20.04.35:415][712]Cmd: DELETE
+[2021.01.29-20.04.35:415][712]Cmd: ACTOR DELETE
+[2021.01.29-20.04.35:417][712]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-20.04.35:418][712]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-20.04.35:462][712]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2021.01.29-20.04.35:464][712]LogEditorActor: Deleted 2 Actors (0.049 secs)
+[2021.01.29-20.04.42:142][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.01.29-20.04.42:817][149]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2021.01.29-20.04.44:505][247]Cmd: DELETE
+[2021.01.29-20.04.44:505][247]Cmd: ACTOR DELETE
+[2021.01.29-20.04.44:507][247]LogEditorActor: Deleted Actor: TextRenderActor
+[2021.01.29-20.04.44:546][247]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2021.01.29-20.04.44:547][247]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2021.01.29-20.04.46:323][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2021.01.29-20.04.46:569][348]LogSavePackage: Moving '../../../../../../Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Saved/FirstPersonExampleMap9AF1E8D24CC9722E5093149054EA2F2D.tmp' to '../../../../../../Users/Lenovo/Documents/GitHub/GlobalGameJam2021/GlobalGameJam2021/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2021.01.29-20.04.46:617][348]AssetCheck: New page: Asset Save: FirstPersonExampleMap
+[2021.01.29-20.04.46:617][348]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+
