@@ -1082,3 +1082,435 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.29-21.35.08:311][527]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/GlobalGameJam2021/GlobalGameJam2021/Saved/FirstPersonExampleMap_2021-01-2992D9DB7C4136DDA32BEA80B8074DD4D4.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/GlobalGameJam2021/GlobalGameJam2021/Content/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.umap'
 [2021.01.29-21.35.08:405][527]AssetCheck: New page: Asset Save: FirstPersonExampleMap_2021-01-29-20-34-56
 [2021.01.29-21.35.08:405][527]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56
+[2021.01.29-21.42.34:480][953]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\User\Downloads\SM_crate_01.fbx)
+[2021.01.29-21.42.34:506][953]LogFbx: Loading FBX Scene from C:\Users\User\Downloads\SM_crate_01.fbx
+[2021.01.29-21.42.34:517][953]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.29-21.42.42:811][953]LogSlate: Window 'FBX Import Options' being destroyed
+[2021.01.29-21.42.43:232][953]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2021.01.29-21.42.43:329][953]LogFbx: Display: Triangulating static mesh SM_crate_01
+[2021.01.29-21.42.43:343][953]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2021.01.29-21.42.43:343][953]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.01.29-21.42.43:343][953]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.01.29-21.42.43:343][953]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.01.29-21.42.43:354][953]LogStaticMesh: Building static mesh SM_crate_01...
+[2021.01.29-21.42.43:375][953]LogStaticMesh: Built static mesh [0.02s] /Game/Models/CrateBody/SM_crate_01.SM_crate_01
+[2021.01.29-21.42.43:389][953]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.29-21.42.45:459][ 93]LogSlate: Window 'Message Log' being destroyed
+[2021.01.29-21.42.45:464][ 93]LogSlate: Window 'Message Log' being destroyed
+[2021.01.29-21.42.46:592][155]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Models/CrateBody/SM_crate_01.SM_crate_01
+[2021.01.29-21.42.47:496][155]LogRenderer: Reallocating scene render targets to support 1208x692 Format 10 NumSamples 1 (Frame:1).
+[2021.01.29-21.42.47:496][155]LogSlate: Took 0.000475 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.29-21.43.18:032][ 15]LogSlate: Window 'SM_crate_01' being destroyed
+[2021.01.29-21.43.18:060][ 15]LogSlate: Window 'SM_crate_01' being destroyed
+[2021.01.29-21.43.18:063][ 15]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.01.29-21.43.18:063][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-21.43.19:311][ 89]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Models/CrateBody/lambert1.lambert1
+[2021.01.29-21.43.19:324][ 89]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2021.01.29-21.43.19:549][ 89]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.01.29-21.43.19:582][ 89]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.01.29-21.43.19:582][ 89]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2021.01.29-21.43.19:582][ 89]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2021.01.29-21.43.19:582][ 89]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.01.29-21.43.19:582][ 89]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2021.01.29-21.43.19:618][ 89]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2021.01.29-21.43.19:655][ 89]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.01.29-21.43.19:720][ 89]LogSlate: Took 0.000568 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.29-21.43.20:265][108]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 13
+[2021.01.29-21.43.20:265][108]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2021.01.29-21.43.20:382][111]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.01.29-21.43.20:382][111]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2021.01.29-21.43.20:927][135]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2021.01.29-21.43.21:099][145]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.01.29-21.43.21:134][147]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.01.29-21.43.21:222][152]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2021.01.29-21.43.21:613][171]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.01.29-21.43.21:733][177]LogSlate: Window 'lambert1' being destroyed
+[2021.01.29-21.43.21:737][177]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2021.01.29-21.43.21:752][177]LogSlate: Window 'lambert1' being destroyed
+[2021.01.29-21.43.21:784][177]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.01.29-21.43.21:784][177]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-21.43.23:065][244]LogActorFactory: Actor Factory created SM_crate_01
+[2021.01.29-21.43.23:442][275]LogActorFactory: Actor Factory created SM_crate_01
+[2021.01.29-21.43.26:583][533]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.01.29-21.43.45:367][942]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.01.29-21.44.13:655][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.01.29-21.44.15:784][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_crate_01)
+[2021.01.29-21.44.16:251][967]Cmd: DELETE
+[2021.01.29-21.44.16:251][967]Cmd: ACTOR DELETE
+[2021.01.29-21.44.16:262][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.44.16:424][967]LogUObjectHash: Compacting FUObjectHashTables data took   8.13ms
+[2021.01.29-21.44.16:428][967]LogEditorActor: Deleted 1 Actors (0.176 secs)
+[2021.01.29-21.44.24:437][463]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\User\Downloads\SK_cratelid_01.fbx)
+[2021.01.29-21.44.24:457][463]LogFbx: Loading FBX Scene from C:\Users\User\Downloads\SK_cratelid_01.fbx
+[2021.01.29-21.44.24:468][463]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.29-21.44.27:229][463]LogSlate: Window 'FBX Import Options' being destroyed
+[2021.01.29-21.44.27:300][463]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2021.01.29-21.44.27:333][463]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2021.01.29-21.44.27:333][463]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.01.29-21.44.27:333][463]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.01.29-21.44.27:333][463]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.01.29-21.44.27:333][463]LogFbx: Display: Triangulating static mesh SK_cratelid_01
+[2021.01.29-21.44.27:385][463]LogStaticMesh: Building static mesh SK_cratelid_01...
+[2021.01.29-21.44.27:407][463]LogStaticMesh: Built static mesh [0.02s] /Game/Models/CreateLid/SK_cratelid_01.SK_cratelid_01
+[2021.01.29-21.44.27:419][463]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.29-21.44.28:770][527]LogSlate: Window 'Message Log' being destroyed
+[2021.01.29-21.44.28:775][527]LogSlate: Window 'Message Log' being destroyed
+[2021.01.29-21.44.29:731][573]LogActorFactory: Actor Factory created SK_cratelid_01
+[2021.01.29-21.44.29:963][588]LogActorFactory: Actor Factory created SK_cratelid_01
+[2021.01.29-21.44.31:863][732]Cmd: DELETE
+[2021.01.29-21.44.31:863][732]Cmd: ACTOR DELETE
+[2021.01.29-21.44.31:875][732]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.44.32:032][732]LogUObjectHash: Compacting FUObjectHashTables data took   7.40ms
+[2021.01.29-21.44.32:035][732]LogEditorActor: Deleted 1 Actors (0.172 secs)
+[2021.01.29-21.45.08:109][133]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2021.01.29-21.45.08:718][133]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/GlobalGameJam2021/GlobalGameJam2021/Saved/FirstPersonExampleMap_2021-01-295437B2274B09FADBC6B4468F7BFFC719.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/GlobalGameJam2021/GlobalGameJam2021/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56_Auto3.umap'
+[2021.01.29-21.45.08:721][133]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56' took 0.762
+[2021.01.29-21.45.08:721][133]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.762
+[2021.01.29-21.45.08:722][133]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/CrateBody/SM_crate_01] ([1] browsable assets)...
+[2021.01.29-21.45.08:768][133]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/CrateBody/SM_crate_01.SM_crate_01]
+[2021.01.29-21.45.08:768][133]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/CrateBody/SM_crate_01]
+[2021.01.29-21.45.08:791][133]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/GlobalGameJam2021/GlobalGameJam2021/Saved/SM_crate_01_Auto395558AD74B8C4EEAB64B728FFCF28F84.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/GlobalGameJam2021/GlobalGameJam2021/Saved/Autosaves/Game/Models/CrateBody/SM_crate_01_Auto3.uasset'
+[2021.01.29-21.45.08:792][133]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/CrateBody/lambert1] ([1] browsable assets)...
+[2021.01.29-21.45.08:835][133]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/CrateBody/lambert1.lambert1]
+[2021.01.29-21.45.08:835][133]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/CrateBody/lambert1]
+[2021.01.29-21.45.08:849][133]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/GlobalGameJam2021/GlobalGameJam2021/Saved/lambert1_Auto3681D2AC745E60B4FE7F36B83327DFB81.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/GlobalGameJam2021/GlobalGameJam2021/Saved/Autosaves/Game/Models/CrateBody/lambert1_Auto3.uasset'
+[2021.01.29-21.45.08:851][133]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/CreateLid/SK_cratelid_01] ([1] browsable assets)...
+[2021.01.29-21.45.08:895][133]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/CreateLid/SK_cratelid_01.SK_cratelid_01]
+[2021.01.29-21.45.08:895][133]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/CreateLid/SK_cratelid_01]
+[2021.01.29-21.45.08:913][133]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/GlobalGameJam2021/GlobalGameJam2021/Saved/SK_cratelid_01_Auto359F045D147A9C24202B58EA03D25A9E6.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/GlobalGameJam2021/GlobalGameJam2021/Saved/Autosaves/Game/Models/CreateLid/SK_cratelid_01_Auto3.uasset'
+[2021.01.29-21.45.08:915][133]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/CreateLid/lambert1] ([1] browsable assets)...
+[2021.01.29-21.45.08:959][133]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/CreateLid/lambert1.lambert1]
+[2021.01.29-21.45.08:959][133]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/CreateLid/lambert1]
+[2021.01.29-21.45.08:978][133]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/GlobalGameJam2021/GlobalGameJam2021/Saved/lambert1_Auto309F1471C4F50FA9AFC5D61BC4A7CE859.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/GlobalGameJam2021/GlobalGameJam2021/Saved/Autosaves/Game/Models/CreateLid/lambert1_Auto3.uasset'
+[2021.01.29-21.45.08:979][133]LogFileHelpers: Auto-saving content packages took 0.257
+[2021.01.29-21.46.39:973][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube52)
+[2021.01.29-21.46.40:456][ 23]Cmd: DELETE
+[2021.01.29-21.46.40:456][ 23]Cmd: ACTOR DELETE
+[2021.01.29-21.46.40:465][ 23]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.46.40:632][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   8.00ms
+[2021.01.29-21.46.40:634][ 23]LogEditorActor: Deleted 1 Actors (0.177 secs)
+[2021.01.29-21.46.47:863][582]LogActorFactory: Actor Factory created SM_crate_01
+[2021.01.29-21.46.49:293][692]LogActorFactory: Actor Factory created SM_crate_01
+[2021.01.29-21.46.54:323][ 36]LogActorFactory: Actor Factory created SK_cratelid_01
+[2021.01.29-21.46.56:232][188]LogActorFactory: Actor Factory created SK_cratelid_01
+[2021.01.29-21.46.57:574][308]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.01.29-21.46.58:720][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.01.29-21.46.59:429][472]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2021.01.29-21.47.03:394][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SK_cratelid_01)
+[2021.01.29-21.47.10:055][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.01.29-21.47.12:434][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SK_cratelid_01)
+[2021.01.29-21.47.23:520][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SK_cratelid_01)
+[2021.01.29-21.47.24:926][710]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_crate_01)
+[2021.01.29-21.47.25:689][777]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_crate_01)
+[2021.01.29-21.47.26:140][817]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SK_cratelid_01)
+[2021.01.29-21.47.37:351][826]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2021.01.29-21.47.38:281][880]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2021.01.29-21.47.43:423][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_crate_01)
+[2021.01.29-21.47.48:714][778]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SK_cratelid_01)
+[2021.01.29-21.47.59:506][705]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.01.29-21.48.14:221][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SK_cratelid_01)
+[2021.01.29-21.48.16:691][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.01.29-21.48.17:384][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_crate_01)
+[2021.01.29-21.48.18:756][371]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_01)
+[2021.01.29-21.49.38:088][750]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube51)
+[2021.01.29-21.49.39:303][852]Cmd: DELETE
+[2021.01.29-21.49.39:303][852]Cmd: ACTOR DELETE
+[2021.01.29-21.49.39:312][852]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.49.39:470][852]LogUObjectHash: Compacting FUObjectHashTables data took   5.84ms
+[2021.01.29-21.49.39:473][852]LogEditorActor: Deleted 1 Actors (0.169 secs)
+[2021.01.29-21.49.40:504][928]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_crate_01)
+[2021.01.29-21.49.41:479][ 13]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_01)
+[2021.01.29-21.50.12:099][734]Cmd: DELETE
+[2021.01.29-21.50.12:099][734]Cmd: ACTOR DELETE
+[2021.01.29-21.50.12:123][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:124][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:124][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:125][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:125][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:126][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:126][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:127][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:128][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:128][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:129][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:129][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:130][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:130][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:131][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:131][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:132][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:133][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:133][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:134][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:134][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:135][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:135][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:136][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:136][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:137][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:138][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:138][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:139][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:139][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:140][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:140][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:141][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:141][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:142][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:142][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:143][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:144][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:144][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:145][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:145][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:146][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:146][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:147][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:147][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:148][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:148][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:149][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:150][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:150][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:151][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:151][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:152][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:152][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:153][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:153][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:154][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:154][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:155][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:155][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:156][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:157][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:157][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:158][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:158][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:159][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:159][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:159][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:160][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:160][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:161][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.29-21.50.12:322][734]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2021.01.29-21.50.12:324][734]LogEditorActor: Deleted 71 Actors (0.225 secs)
+[2021.01.29-21.52.28:718][ 36]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2021.01.29-21.53.01:142][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_crate_13)
+[2021.01.29-21.53.05:316][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_crate_12)
+[2021.01.29-21.53.08:559][484]Cmd: TRANSACTION UNDO
+[2021.01.29-21.53.08:559][484]LogEditorTransaction: Undo Rotate Actors
+[2021.01.29-21.53.10:559][630]Cmd: TRANSACTION UNDO
+[2021.01.29-21.53.10:560][630]LogEditorTransaction: Undo Clicking on Actors
+[2021.01.29-21.53.11:440][701]Cmd: TRANSACTION UNDO
+[2021.01.29-21.53.11:440][701]LogEditorTransaction: Undo Rotate Actors
+[2021.01.29-21.53.12:266][772]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_13)
+[2021.01.29-21.53.20:457][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SK_cratelid_12)
+[2021.01.29-21.53.21:329][587]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_12)
+[2021.01.29-21.53.26:051][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SK_cratelid_9)
+[2021.01.29-21.53.27:628][148]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_9)
+[2021.01.29-21.53.37:827][ 23]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SK_cratelid_7)
+[2021.01.29-21.53.38:577][ 86]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_5)
+[2021.01.29-21.53.39:527][169]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_7)
+[2021.01.29-21.53.40:349][238]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_5)
+[2021.01.29-21.53.44:705][630]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_crate_4)
+[2021.01.29-21.53.46:673][808]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_4)
+[2021.01.29-21.53.51:686][258]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_crate_2)
+[2021.01.29-21.53.52:367][315]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_2)
+[2021.01.29-21.54.09:015][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.01.29-21.54.10:111][837]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2021.01.29-21.55.09:547][194]LogUObjectHash: Compacting FUObjectHashTables data took   6.47ms
+[2021.01.29-21.55.10:088][194]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/GlobalGameJam2021/GlobalGameJam2021/Saved/FirstPersonExampleMap_2021-01-29DA42A3564031221E246DED8FC546D395.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/GlobalGameJam2021/GlobalGameJam2021/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56_Auto4.umap'
+[2021.01.29-21.55.10:090][194]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56' took 0.700
+[2021.01.29-21.55.10:090][194]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.700
+[2021.01.29-21.56.26:076][765]Cmd: TRANSACTION UNDO
+[2021.01.29-21.56.26:076][765]LogEditorTransaction: Undo Scale Actors
+[2021.01.29-21.56.29:833][ 63]Cmd: TRANSACTION UNDO
+[2021.01.29-21.56.29:833][ 63]LogEditorTransaction: Undo Scale Actors
+[2021.01.29-21.57.57:137][184]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2021.01.29-21.57.57:839][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_crate_34)
+[2021.01.29-21.57.59:028][343]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_34)
+[2021.01.29-21.58.00:210][444]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_33)
+[2021.01.29-21.58.00:724][483]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_33)
+[2021.01.29-21.58.01:801][574]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_32)
+[2021.01.29-21.58.02:278][609]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_32)
+[2021.01.29-21.58.03:580][721]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_31)
+[2021.01.29-21.58.04:039][755]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_31)
+[2021.01.29-21.58.04:955][832]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_30)
+[2021.01.29-21.58.05:716][893]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_30)
+[2021.01.29-21.58.06:772][982]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_29)
+[2021.01.29-21.58.07:214][ 13]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_29)
+[2021.01.29-21.58.19:608][ 42]Cmd: TRANSACTION UNDO
+[2021.01.29-21.58.19:608][ 42]LogEditorTransaction: Undo Move Actors
+[2021.01.29-21.58.22:822][291]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_crate_32)
+[2021.01.29-21.58.23:516][347]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_31)
+[2021.01.29-21.58.24:865][465]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_32)
+[2021.01.29-21.58.25:940][554]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_31)
+[2021.01.29-21.58.26:860][632]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_30)
+[2021.01.29-21.58.27:349][669]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_30)
+[2021.01.29-21.58.27:966][717]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_29)
+[2021.01.29-21.58.29:116][806]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_29)
+[2021.01.29-21.58.30:107][881]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_29)
+[2021.01.29-21.58.30:567][914]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_29)
+[2021.01.29-21.58.53:844][911]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_crate_45)
+[2021.01.29-21.58.54:750][987]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_45)
+[2021.01.29-21.58.57:917][266]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_crate_44)
+[2021.01.29-21.58.58:808][340]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_44)
+[2021.01.29-21.59.09:894][290]LogUObjectHash: Compacting FUObjectHashTables data took   7.48ms
+[2021.01.29-21.59.10:441][290]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/GlobalGameJam2021/GlobalGameJam2021/Saved/FirstPersonExampleMap_2021-01-2955D25DBF46351EAC58EFF6A142501527.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/GlobalGameJam2021/GlobalGameJam2021/Content/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.umap'
+[2021.01.29-21.59.10:628][290]AssetCheck: New page: Asset Save: FirstPersonExampleMap_2021-01-29-20-34-56
+[2021.01.29-21.59.10:628][290]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56
+[2021.01.29-21.59.37:660][650]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_crate_15)
+[2021.01.29-21.59.38:552][725]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_15)
+[2021.01.29-21.59.39:255][781]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_16)
+[2021.01.29-21.59.39:708][814]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_16)
+[2021.01.29-21.59.40:510][879]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_17)
+[2021.01.29-21.59.41:629][970]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_17)
+[2021.01.29-22.00.19:098][215]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.01.29-22.00.19:099][215]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.01.29-22.00.52:803][986]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_crate_21)
+[2021.01.29-22.00.53:606][ 51]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_21)
+[2021.01.29-22.00.54:482][122]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_22)
+[2021.01.29-22.00.55:014][163]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_22)
+[2021.01.29-22.00.55:817][227]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_23)
+[2021.01.29-22.00.56:245][258]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_23)
+[2021.01.29-22.00.59:506][544]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2021.01.29-22.01.10:081][429]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.01.29-22.01.10:081][429]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.01.29-22.01.26:486][686]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_64)
+[2021.01.29-22.01.27:383][758]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_64)
+[2021.01.29-22.01.28:148][820]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_63)
+[2021.01.29-22.01.28:733][865]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_63)
+[2021.01.29-22.01.30:115][981]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_62)
+[2021.01.29-22.01.30:571][ 13]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_62)
+[2021.01.29-22.01.55:237][ 67]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_crate_68)
+[2021.01.29-22.01.56:047][133]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_68)
+[2021.01.29-22.01.57:222][232]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_71)
+[2021.01.29-22.01.58:455][337]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_71)
+[2021.01.29-22.02.20:711][179]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2021.01.29-22.02.50:052][463]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2021.01.29-22.02.54:088][781]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2021.01.29-22.02.54:599][813]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2021.01.29-22.02.55:147][859]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_crate_89)
+[2021.01.29-22.02.55:768][908]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_89)
+[2021.01.29-22.02.57:699][ 74]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.01.29-22.02.57:700][ 74]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.01.29-22.03.43:605][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_crate_91)
+[2021.01.29-22.03.44:437][105]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_91)
+[2021.01.29-22.03.46:571][286]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_crate_90)
+[2021.01.29-22.03.47:567][367]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_90)
+[2021.01.29-22.03.50:327][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_crate_93)
+[2021.01.29-22.03.51:232][677]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_93)
+[2021.01.29-22.04.19:968][103]LogUObjectHash: Compacting FUObjectHashTables data took   9.23ms
+[2021.01.29-22.04.20:689][103]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/GlobalGameJam2021/GlobalGameJam2021/Saved/FirstPersonExampleMap_2021-01-29848541F14A1DC9942CA67D99C38B194F.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/GlobalGameJam2021/GlobalGameJam2021/Content/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.umap'
+[2021.01.29-22.04.20:787][103]AssetCheck: New page: Asset Save: FirstPersonExampleMap_2021-01-29-20-34-56
+[2021.01.29-22.04.20:787][103]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56
+[2021.01.29-22.04.22:481][238]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.29-22.04.22:506][238]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel.FirstPersonExampleMap_2021-01-29-20-34-56' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel.FirstPersonExampleMap_2021-01-29-20-34-56'
+[2021.01.29-22.04.22:506][238]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.29-22.04.22:506][238]PIE: New page: PIE session: FirstPersonExampleMap_2021-01-29-20-34-56 (29 Jan 2021, 22:04:22)
+[2021.01.29-22.04.22:507][238]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap_2021-01-29-20-34-56
+[2021.01.29-22.04.22:588][238]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081770s)
+[2021.01.29-22.04.22:590][238]LogAIModule: Creating AISystem for world FirstPersonExampleMap_2021-01-29-20-34-56
+[2021.01.29-22.04.22:590][238]LogPlayLevel: PIE: World Init took: (0.001683s)
+[2021.01.29-22.04.22:590][238]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56 to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56 (0.083848s)
+[2021.01.29-22.04.22:748][238]LogUObjectHash: Compacting FUObjectHashTables data took   7.23ms
+[2021.01.29-22.04.22:751][238]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.29-22.04.22:751][238]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.29-22.04.22:751][238]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.29-22.04.22:751][238]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.29-22.04.22:751][238]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.29-22.04.22:751][238]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.29-22.04.22:751][238]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.29-22.04.22:751][238]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.29-22.04.22:752][238]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.29-22.04.22:752][238]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.29-22.04.22:772][238]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.01.29-22.04.22:772][238]LogAudioMixer: Display: Name: Speakers (Turtle Beach P11 Headset)
+[2021.01.29-22.04.22:772][238]LogAudioMixer: Display: Is Default: Yes
+[2021.01.29-22.04.22:772][238]LogAudioMixer: Display: Sample Rate: 48000
+[2021.01.29-22.04.22:772][238]LogAudioMixer: Display: Channel Count Used: 2
+[2021.01.29-22.04.22:772][238]LogAudioMixer: Display: Device Channel Count: 2
+[2021.01.29-22.04.22:772][238]LogAudioMixer: Display: Channel Order:
+[2021.01.29-22.04.22:772][238]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.29-22.04.22:773][238]LogAudioMixer: Display: 1: FrontRight
+[2021.01.29-22.04.22:788][238]LogAudioMixer: Display: Using Audio Device Speakers (Turtle Beach P11 Headset)
+[2021.01.29-22.04.22:790][238]LogInit: FAudioDevice initialized.
+[2021.01.29-22.04.22:800][238]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.29-22.04.22:837][238]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56 up for play (max tick rate 0) at 2021.01.29-22.04.22
+[2021.01.29-22.04.22:837][238]LogWorld: Bringing up level for play took: 0.036422
+[2021.01.29-22.04.22:838][238]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.01.29-22.04.22:840][238]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.01.29-22.04.22:841][238]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap_2021-01-29-20-34-56 0.665
+[2021.01.29-22.04.22:841][238]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel.FirstPersonExampleMap_2021-01-29-20-34-56' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel.FirstPersonExampleMap_2021-01-29-20-34-56'
+[2021.01.29-22.04.33:561][139]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.29-22.04.33:562][139]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.29-22.04.33:562][139]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel.FirstPersonExampleMap_2021-01-29-20-34-56' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel.FirstPersonExampleMap_2021-01-29-20-34-56'
+[2021.01.29-22.04.33:562][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-22.04.33:562][139]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap_2021-01-29-20-34-56
+[2021.01.29-22.04.33:562][139]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.29-22.04.33:563][139]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap_2021-01-29-20-34-56, bSessionEnded=true, bCleanupResources=true
+[2021.01.29-22.04.33:565][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-22.04.33:573][139]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.29-22.04.33:574][139]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel.FirstPersonExampleMap_2021-01-29-20-34-56' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel.FirstPersonExampleMap_2021-01-29-20-34-56'
+[2021.01.29-22.04.33:581][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-22.04.33:733][139]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.29-22.04.33:736][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-22.04.33:748][139]LogUObjectHash: Compacting FUObjectHashTables data took   7.14ms
+[2021.01.29-22.04.33:805][140]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.01.29-22.04.35:458][278]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_crate_91)
+[2021.01.29-22.04.37:095][415]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SK_cratelid_91)
+[2021.01.29-22.04.37:892][479]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_crate_91)
+[2021.01.29-22.04.41:617][793]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.29-22.04.41:639][793]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel.FirstPersonExampleMap_2021-01-29-20-34-56' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel.FirstPersonExampleMap_2021-01-29-20-34-56'
+[2021.01.29-22.04.41:639][793]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.29-22.04.41:639][793]PIE: New page: PIE session: FirstPersonExampleMap_2021-01-29-20-34-56 (29 Jan 2021, 22:04:41)
+[2021.01.29-22.04.41:639][793]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap_2021-01-29-20-34-56
+[2021.01.29-22.04.41:717][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077799s)
+[2021.01.29-22.04.41:719][793]LogAIModule: Creating AISystem for world FirstPersonExampleMap_2021-01-29-20-34-56
+[2021.01.29-22.04.41:720][793]LogPlayLevel: PIE: World Init took: (0.002429s)
+[2021.01.29-22.04.41:720][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56 to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56 (0.080709s)
+[2021.01.29-22.04.41:873][793]LogUObjectHash: Compacting FUObjectHashTables data took   6.52ms
+[2021.01.29-22.04.41:876][793]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.29-22.04.41:876][793]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.29-22.04.41:876][793]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.29-22.04.41:876][793]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.29-22.04.41:876][793]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.29-22.04.41:876][793]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.29-22.04.41:876][793]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.29-22.04.41:876][793]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.29-22.04.41:877][793]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.29-22.04.41:877][793]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.29-22.04.41:897][793]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.01.29-22.04.41:897][793]LogAudioMixer: Display: Name: Speakers (Turtle Beach P11 Headset)
+[2021.01.29-22.04.41:897][793]LogAudioMixer: Display: Is Default: Yes
+[2021.01.29-22.04.41:897][793]LogAudioMixer: Display: Sample Rate: 48000
+[2021.01.29-22.04.41:897][793]LogAudioMixer: Display: Channel Count Used: 2
+[2021.01.29-22.04.41:897][793]LogAudioMixer: Display: Device Channel Count: 2
+[2021.01.29-22.04.41:897][793]LogAudioMixer: Display: Channel Order:
+[2021.01.29-22.04.41:897][793]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.29-22.04.41:897][793]LogAudioMixer: Display: 1: FrontRight
+[2021.01.29-22.04.41:913][793]LogAudioMixer: Display: Using Audio Device Speakers (Turtle Beach P11 Headset)
+[2021.01.29-22.04.41:915][793]LogInit: FAudioDevice initialized.
+[2021.01.29-22.04.41:927][793]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.29-22.04.41:944][793]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56 up for play (max tick rate 0) at 2021.01.29-22.04.41
+[2021.01.29-22.04.41:944][793]LogWorld: Bringing up level for play took: 0.016036
+[2021.01.29-22.04.41:945][793]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.01.29-22.04.41:946][793]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.01.29-22.04.41:948][793]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap_2021-01-29-20-34-56 -0.23
+[2021.01.29-22.04.41:948][793]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel.FirstPersonExampleMap_2021-01-29-20-34-56' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel.FirstPersonExampleMap_2021-01-29-20-34-56'
+[2021.01.29-22.04.49:245][417]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.29-22.04.49:245][417]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.29-22.04.49:245][417]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel.FirstPersonExampleMap_2021-01-29-20-34-56' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel.FirstPersonExampleMap_2021-01-29-20-34-56'
+[2021.01.29-22.04.49:245][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-22.04.49:245][417]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap_2021-01-29-20-34-56
+[2021.01.29-22.04.49:245][417]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.29-22.04.49:246][417]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap_2021-01-29-20-34-56, bSessionEnded=true, bCleanupResources=true
+[2021.01.29-22.04.49:248][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-22.04.49:256][417]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.29-22.04.49:257][417]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel.FirstPersonExampleMap_2021-01-29-20-34-56' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_2021-01-29-20-34-56.FirstPersonExampleMap_2021-01-29-20-34-56:PersistentLevel.FirstPersonExampleMap_2021-01-29-20-34-56'
+[2021.01.29-22.04.49:264][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-22.04.49:410][417]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.01.29-22.04.49:413][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-22.04.49:425][417]LogUObjectHash: Compacting FUObjectHashTables data took   6.36ms
+[2021.01.29-22.04.49:478][418]LogPlayLevel: Display: Destroying online subsystem :Context_11
