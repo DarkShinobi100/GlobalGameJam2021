@@ -1,4 +1,4 @@
-﻿Log file open, 01/30/21 15:22:44
+﻿Log file open, 01/30/21 15:19:21
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,8 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: GlobalGameJam2021
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.157723
+LogStats: Stats thread started at 0.237699
+
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -125,7 +126,7 @@ LogInit: Build: ++UE4+Release-4.24-CL-11590370
 LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
 LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
 LogInit: Net CL: 10570792
-LogInit: OS: Windows 7 (Service Pack 1), CPU: AMD FX(tm)-8320 Eight-Core Processor           , GPU: NVIDIA GeForce GTX 750 Ti
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
 LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
 LogInit: Compiled with Visual C++: 19.16.27032.01
 LogInit: Build Configuration: Development
@@ -1491,3 +1492,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.30-16.58.30:844][408]AssetCheck: New page: Asset Save: multiple assets
 [2021.01.30-16.58.30:844][408]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/StartScreen.StartScreen
 [2021.01.30-16.58.30:845][408]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/StartScreen_BuiltData.StartScreen_BuiltData
+
