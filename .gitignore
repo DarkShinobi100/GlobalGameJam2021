@@ -86,3 +86,7 @@ GlobalGameJam2021/Saved/Logs/GlobalGameJam2021-backup-2021.01.29-18.49.16.log
 *.ini
 GlobalGameJam2021/Saved/Logs/GlobalGameJam2021.log
 GlobalGameJam2021/Saved/Logs/GlobalGameJam2021_2.log
+GlobalGameJam2021/Saved/Config/Windows/Engine.ini
+*.ini
+*.bin
+*.log
